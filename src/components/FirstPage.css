@@ -48,7 +48,7 @@ button{
     background-color: peachpuff;
     /* z-index: 1; */
     margin-top: -25vh;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 
 }
 .lower-first-data{
@@ -126,55 +126,64 @@ button{
         margin-left: 8px;
         width: 98%;
         height: 80vh;
-        margin-top: -12vh;
+        margin-top: -4vh;
     }
     .image img{
         width: 100vw;
         height: 40vh;
-        margin-top: -12vh;
+        margin-top: -2vh;
+     }
+     .upper-first-data{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;;
      }
      .first-data{
-        display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
         height: 20vh;
-        width:70%;
+        width:80%;
         border-radius: 15px;
         background-color: peachpuff;
-        margin-top:0.2vh;
+        margin-top:0vh;
     }
     .location{
         height: 4vh;
         width: 25vw;
-        border: 1px solid black;
+        border: 1px solid white;
+        border-radius: 10px;
         background-color: white;
         display: flex;
-        gap:10vw;
+        justify-content: space-around;
         align-items: center;
-        padding-left: 2vw;
+        /* padding-left: 2vw; */
         font-size: 15px;
     }
     .type{
         height: 4vh;
         width: 25vw;
-        border: 0.5px solid black;
+        border: 1px solid white;
+        border-radius: 10px;
         background-color: white;
         display: flex;
-        gap:10vw;
+        justify-content: space-around;
         align-items: center;
-        padding-left: 2vw;
+        /* padding-left: 2vw; */
         font-size: 15px;
     }
     .range{
         height: 4vh;
         width: 30vw;
-        border: 0.5px solid black;
+        border: 1px solid white;
         background-color: white;
+        border-radius: 10px;
         display: flex;
-        gap:8vw;
+        justify-content: space-around;
+        /* gap:8vw; */
         align-items: center;
-        padding-left: 2vw;
+        /* padding-left: 2vw; */
         font-size: 15px;
     }
     .lower-first-data-second{
