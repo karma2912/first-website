@@ -6,11 +6,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 .logo img{
     width: 120px;
     margin-top: 5px;
-    margin-left: 15px;
+    margin-left: 5vw;
     padding-top: 1vh;
 }
 .options ul{
