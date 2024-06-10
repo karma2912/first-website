@@ -9,7 +9,9 @@ function App() {
     <>
     <Navbar/>
     <FirstPage/>
+    <hr/>
     <SecondPage/>
+    <hr/>
     <ThirdPage/>
     </>
   )
