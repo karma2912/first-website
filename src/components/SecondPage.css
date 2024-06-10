@@ -1,0 +1,43 @@
+#second-section{
+    display: flex;
+    padding-top: 7vh;
+    height: 100%;
+    padding-bottom: 7vh;
+}
+.second-image{
+    /* background-color: aquamarine; */
+    padding-left: 5vw;
+    height: 100%;
+}
+.second-image img{
+    height: 100%;
+    width: 80%;
+    border-radius: 10px;
+}
+.bolder-text-second{
+    font-size: 50px;
+    font-weight: 800;
+}
+.second-number{
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    font-weight: normal;
+}
+@media screen and (max-width:600px){
+    .second-text{
+        padding-left: 4vw;
+        padding-right: 4vw;
+        padding-top: 4vh;
+    }
+    .second-image img{
+        height: 100%;
+        width: 90vw;
+        border-radius: 10px;
+    }
+    .second-number{
+        display: flex;
+        gap:5vw;
+    }
+}
