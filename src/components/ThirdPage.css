@@ -82,6 +82,10 @@
     padding-top: 1vh;
 }
 @media screen and (max-width:700px){
+    .section-third{
+        width: 100%;
+        height: 150vh;
+    }
     .third-data{
         width: 100%;
         display: flex;
@@ -97,28 +101,28 @@
     }
     .guidance{
         height: 24vh;
-        width: 50vw;
+        width: 60vw;
         background-color: peachpuff;
         border-radius: 10px;
         margin-bottom: 5vh;
     }
     .support{
         height: 24vh;
-        width: 50vw;
+        width: 60vw;
         background-color: peachpuff;
         border-radius: 10px;
         margin-bottom: 5vh;
     }
     .process{
         height: 24vh;
-        width: 50vw;
+        width: 60vw;
         background-color: peachpuff;
         border-radius: 10px;
         margin-bottom: 5vh;
     }
     .service{
         height: 24vh;
-        width: 50vw;
+        width: 60vw;
         background-color: peachpuff;
         border-radius: 10px;
         margin-bottom: 5vh;
