@@ -15,7 +15,7 @@ function App() {
     <hr/>
     <ThirdPage/>
     <hr/>
-    {/* <FourthPage/> */}
+    <FourthPage/>
     </>
   )
 }
