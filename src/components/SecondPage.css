@@ -1,5 +1,6 @@
 #second-section{
     display: flex;
+    justify-content: space-around;
     padding-top: 12vh;
     height: 100%;
     padding-bottom: 12vh;
@@ -25,7 +26,7 @@
 p{
     font-weight: normal;
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:700px){
     .second-text{
         padding-left: 4vw;
         padding-right: 4vw;
