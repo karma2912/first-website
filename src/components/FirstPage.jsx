@@ -26,11 +26,11 @@ const FirstPage = () => {
     <div className='upper-first-data'>
     <div className='first-data'>
       <div className='lower-first-data'>
-      <div className='location'>location<i class="fa-solid fa-location-dot"></i></div>
-      <div className='type'>Type<i class="fa-solid fa-house"></i></div>
+      <div className='location'>location<i className="fa-solid fa-location-dot"></i></div>
+      <div className='type'>Type<i className="fa-solid fa-house"></i></div>
       </div>
       <div className='lower-first-data-second'>
-      <div className='range'>Price Range<i class="fa-solid fa-indian-rupee-sign"></i></div>
+      <div className='range'>Price Range<i className="fa-solid fa-indian-rupee-sign"></i></div>
       <button>Sign Up</button>
       </div>
     </div>

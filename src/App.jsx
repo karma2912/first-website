@@ -16,6 +16,7 @@ function App() {
     <ThirdPage/>
     <hr/>
     <FourthPage/>
+    <hr/>
     </>
   )
 }
