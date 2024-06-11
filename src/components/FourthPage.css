@@ -22,9 +22,8 @@
     padding-bottom: 10vh;
 }
 .cards{
-    height: 120%;
     width:25vw;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 10px;
     background-color: peachpuff;
 }

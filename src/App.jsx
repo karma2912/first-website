@@ -1,4 +1,5 @@
 import './App.css'
+import FifthPage from './components/FifthPage'
 import FirstPage from './components/FirstPage'
 import FourthPage from './components/FourthPage'
 import Navbar from './components/Navbar'
@@ -16,6 +17,8 @@ function App() {
     <ThirdPage/>
     <hr/>
     <FourthPage/>
+    <hr/>
+    <FifthPage/>
     <hr/>
     </>
   )

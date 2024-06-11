@@ -1,0 +1,78 @@
+.fifth-section{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(250, 233, 218);
+}
+.fifth-title{
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 6vh;
+    padding-top: 6vh;
+}
+.fifth-upper-card{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   padding-bottom: 10vh;
+}
+.fifth-cards{
+    width: 15vw;
+    background-color: peachpuff;
+    border-radius: 10px;
+}
+.interior{
+    height: 20vh;
+    width: 100%;
+    border-radius: 10px;
+}
+.profile-pic{
+    width: 4vh;
+    height: 4vh;
+    border-radius: 50%;
+}
+.fifth-second-half{
+    display: flex;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 1vw;
+}
+.name{
+    padding-left: 0.5vw;
+}
+.pro-name{
+    font-size: 15px;
+    font-weight: 800;
+}
+.pro-loc{
+    font-size: 15px;
+}
+.fifth-component{
+    padding-bottom: 2vh;
+}
+.random-data{
+    padding-left: 1vw;
+}
+@media screen and (max-width:700px){
+    .fifth-upper-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .fifth-cards{
+        width: 80vw;
+        background-color: peachpuff;
+        margin-bottom: 8vh;
+    }
+    .fifth-second-half{
+        display: flex;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        padding-left: 4vw;
+    }
+    .random-data{
+        padding-left: 3vw;
+    }
+    .fifth-upper-card{
+        padding-bottom: 4vh;
+     }
+}
